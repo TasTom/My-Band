@@ -1,0 +1,41 @@
+h1{
+    text-align: center;
+    color: blue;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: lightgrey;
+    margin: 0;
+    padding: 0;
+
+}
+
+article{
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    box-shadow: 5px 5px 10px grey;
+}
+
+.server{
+    color: green;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}   
+
+.footer{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0;
+}
