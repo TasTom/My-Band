@@ -17,7 +17,7 @@ session_start();
         <ul>
             <li><a href="band.php">HOME</a></li>
             <li><a href="bandD.php">BAND</a></li>
-            <li>SETLIST</li>
+            <li><a href="bandSetList.php">SETLIST</a></li>
             <li>CONTACT</li>
         </ul>
     </header>

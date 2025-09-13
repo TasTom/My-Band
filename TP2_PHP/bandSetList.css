@@ -1,0 +1,162 @@
+.band{
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+    background-image: url("background/groupe4.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+header a{
+    text-decoration: none;
+    color: rgb(149, 143, 143);
+}
+
+body{
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+header{
+    background-color: rgb(55, 53, 53, 0.8);
+    display: flex;
+    height: 100px;
+    width: 100%;
+    box-shadow: 5px 5px 10px grey;
+    align-items: center;
+}
+
+header h1{
+    text-align: left;
+    margin-left: 20;
+    color: rgb(149, 143, 143);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    padding: 0;
+}
+
+header ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: 10px;
+    padding: 0;
+    float: right;
+}
+
+h2{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+header ul li{
+    display: flex;
+    margin: 0 10px;
+    color: rgb(149, 143, 143);
+    background-color: rgb(55, 53, 53);
+    font-size: 10px;
+    height: 40px;
+    width: 60px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    cursor: pointer;
+    text-decoration: none;
+    margin-bottom: 45px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.logo{
+    display: flex;  
+    width: 100px;
+    height: 100px;
+    
+}
+
+footer{
+    background-color: rgb(55, 53, 53,0.8);
+    display: flex;
+    padding: 10px;
+    height: 50px;
+    width: 100%;
+    box-shadow: 5px 5px 10px grey;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    justify-content: center;
+}
+
+table,th,td{
+    border: 2px solid rgb(74, 71, 71);
+    padding: 15px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+table{
+    border-collapse: collapse;
+    margin-bottom: 100px;
+}
+
+table.centre td{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table#jolie tr:first-child{
+    background-color: grey;
+    color: white;
+    font-size: 20px;
+}
+
+table#jolie tr:nth-child(2n){
+    background-color: #a8a8a8;
+}
+
+table#jolie tr:nth-child(2n+3){
+    background-color: white;
+    
+}
+
+table tr:only-child{
+    background-color: yellow;
+    
+}
+
+tr th{
+    border: 2px solid black;
+    /* padding: 20px; */
+    font-size: 25px;
+    text-align: center;
+    
+
+}
+
+.centre{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#recherche{
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    box-shadow: 2px 2px 5px grey;
+    outline: none;
+}
