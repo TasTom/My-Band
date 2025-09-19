@@ -1,6 +1,6 @@
 <?php 
-define('USER', 'root');
-define('PASSWD', '');
+define('USER', 'superu');
+define('PASSWD', 'admin');
 define('BASE', 'myband');
 
 try {

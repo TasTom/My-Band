@@ -16,50 +16,7 @@
     padding: 0;
 }
 
-header{
-    background-color: rgb(55, 53, 53, 0.8);
-    display: flex;
-    padding: 10px;
-    height: 100px;
-    width: 100%;
-    box-shadow: 5px 5px 10px grey;
-    align-items: center;
-}
 
-header h1{
-    text-align: left;
-    margin-left: 20;
-    color: rgb(149, 143, 143);
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 50px;
-    padding: 0;
-}
-
-header ul{
-    display: flex;
-    list-style-type: none;
-    margin-left: auto;
-    margin-right: 10px;
-    padding: 0;
-    float: right;
-}
-
-header ul li{
-    display: flex;
-    margin: 0 10px;
-    color: rgb(149, 143, 143);
-    background-color: rgb(55, 53, 53);
-    font-size: 10px;
-    height: 40px;
-    width: 60px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-    cursor: pointer;
-    margin-bottom: 45px;
-    align-items: center;
-    justify-content: center;
-    
-}
 
 .logo{
     display: flex;  
@@ -68,8 +25,98 @@ header ul li{
     
 }
 
-footer{
+/* footer{
     background-color: rgb(55, 53, 53,0.8);
+    display: flex;
+    padding: 10px;
+    height: 50px;
+    width: 100%;
+    box-shadow: 5px 5px 10px grey;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    justify-content: center;
+} */
+
+/* Styles généraux pour la page band */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+main {
+    margin-top: 20px;
+    margin-bottom: 100px; /* Espace pour le footer */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 3px solid #04AA6D;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #555;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #666;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+ul {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+ul li {
+    margin-bottom: 8px;
+    padding-left: 10px;
+}
+
+strong {
+    color: #333;
+}
+
+em {
+    color: #04AA6D;
+    font-style: italic;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .container {
+        margin: 10px;
+        padding: 15px;
+    }
+    
+    h2 {
+        font-size: 1.5em;
+    }
+    
+    h3 {
+        font-size: 1.2em;
+    }
+}
+
+footer {
+    background-color: rgba(55, 53, 53, 0.8);
     display: flex;
     padding: 10px;
     height: 50px;

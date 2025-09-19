@@ -1,27 +1,19 @@
-
-
 <!DOCTYPE html>
-<html>
-    <?php 
-        require_once 'band_generators.php';
-        require_once 'component/header.php';
-        ?>
-    <head>
-        <title>TP1 PHP Par TAS Tom</title>
-        <meta charset="utf-8" />
-        <link rel="stylesheet" href="band.css">
-    </head>
-    <php ?>
-
-   
-    <body class="band">
-    <?php
-        $background = generate_background();
-        echo "<div class='background' style='background-image: url($background)'></div>";
-    ?>
-
-    </body>
-    <?php require_once 'component/footer.php'; ?>
+<html lang="fr">
+<head>
+    <meta charset="utf-8" />
+    <title>Band - TP2 PHP Par TAS Tom</title>
+    <link rel="stylesheet" href="component/header.css">
+    <link rel="stylesheet" href="band.css">
+</head>
+<body>
+    <?php require_once 'component/header.php'; ?>
     
+    <main>
+        <h1>Bienvenue sur notre site</h1>
+        <p>Contenu de la page band...</p>
+    </main>
+    
+    <?php require_once 'component/footer.php'; ?>
+</body>
 </html>
-
